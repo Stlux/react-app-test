@@ -18,8 +18,9 @@ function Layout(){
     });
 
     return(
-        <div className="cinema">
+        <div className="cinema mb-10">
             <div className="md:container md:mx-auto">
+                <div className="pt-12 pb-3 text-sky-900 text-4xl ml-6 font-bold">Cinema films today</div>
                 {data}
             </div>
         </div>
